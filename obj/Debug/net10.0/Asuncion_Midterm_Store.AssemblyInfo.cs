@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asuncion_Midterm_Store")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a4b4d17eb9ce1706ada8edece7b83f0aadcb3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fffcca5805a6938b8c44e7e06360742ca3a5308")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asuncion_Midterm_Store")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asuncion_Midterm_Store")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

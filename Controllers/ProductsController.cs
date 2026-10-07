@@ -13,11 +13,20 @@ namespace Asuncion_Midterm_Store.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
-            var products = _context.Products.ToList();
+            var products = _context.Products.AsQueryable();
 
-            return View(products);
+            if (!string.IsNullOrEmpty(search))
+            {
+                products = products.Where(p =>
+                    p.Name.Contains(search) ||
+                    p.Category.Contains(search));
+            }
+
+            ViewBag.Search = search;
+
+            return View(products.ToList());
         }
 
         // GET: Products/Create
